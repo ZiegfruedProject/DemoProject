@@ -1,24 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <widget xmlns = "http://www.w3.org/ns/widgets"
-        xmlns:gap = "http://phonegap.com/ns/1.0"
-id = "Guitar.Guitar.Shop"
-version = "1.0.0"
-versionCode = "1">
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.labx"
+        versionCode = "10" 
+        version     = "1.0.0" >
 
-    <name>Guitar Shop</name>
+    <!-- versionCode is optional and Android only -->
+
+    <name>PIAG lab6</name>
 
     <description>
-		Best new Guitar shop 
+        An example for phonegap build docs. 
     </description>
 
-    
-        
-    <!-- ICONS -->
-        
-    <icon src="icon.png" /> <!-- default 512 pixels -->
-        
-  
-    <gap:plugin name="org.apache.cordova.camera" version="0.2.9" />/>
-     <access origin="*"/>
+    <author href="https://build.phonegap.com" email="support@phonegap.com">
+        i don't know
+    </author>
+    <gap:plugin name="org.apache.cordova.camera" version="0.2.9" />
 </widget>
-
