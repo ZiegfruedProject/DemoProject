@@ -330,6 +330,7 @@ function line()
     // device APIs are available
     //
     function onDeviceReady() {
+    alert("device ready");
     pictureSource=navigator.camera.PictureSourceType;
     destinationType=navigator.camera.DestinationType;
     }
@@ -338,7 +339,7 @@ function line()
     //
     function onPhotoDataSuccess(imageData) {
     // Uncomment to view the base64-encoded image data
-    // console.log(imageData);
+     console.log(imageData);
      
     // Get image handle
     //
@@ -358,7 +359,7 @@ function line()
     //
     function onPhotoURISuccess(imageURI) {
     // Uncomment to view the image file URI
-    // console.log(imageURI);
+     console.log(imageURI);
      
     // Get image handle
     //
