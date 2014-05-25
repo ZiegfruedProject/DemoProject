@@ -18,7 +18,7 @@ versionCode = "1">
     <icon src="icon.png" /> <!-- default 512 pixels -->
         
   
-    <gap:plugin name="org.apache.cordova.camera" />
+    <gap:plugin name="org.apache.cordova.camera" version="0.2.9" />/>
      <access origin="*"/>
 </widget>
 
