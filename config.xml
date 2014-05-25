@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+id = "Guitar.Guitar.Shop"
+version = "1.0.0"
+versionCode = "1">
+
+    <name>Guitar Shop</name>
+
+    <description>
+		Best new Guitar shop 
+    </description>
+
+    
+        
+    <!-- ICONS -->
+        
+    <icon src="icon.png" /> <!-- default 512 pixels -->
+        
+  
+    <gap:plugin name="org.apache.cordova.camera" />
+     <access origin="*"/>
+</widget>
+
